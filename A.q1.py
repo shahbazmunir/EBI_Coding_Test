@@ -1,9 +1,9 @@
 #!/usr/bin/python
 
 # Question 1 results can be achieved in the following simpler way
-
+# import randint library
 from random import randint
-def foo(length):
+def foo(length):	# Define a subroutine
 	list = []
 	is_done = False
 	while(is_done == False):
@@ -15,5 +15,5 @@ def foo(length):
 			is_done = True
 	return list
 
-x = foo(10)
+x = foo(10)	# Call foo subroutine
 print x
